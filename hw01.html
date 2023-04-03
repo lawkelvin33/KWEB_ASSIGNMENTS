@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        * {
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+      .title {
+        font-size: 20px;
+        font-weight: bold;
+      }
+      ._1 {
+        size:10px;
+      }
+      .h4 {
+        font-size:10px;
+      }
+      .description {
+        font-size: 20px;
+        font-weight: bold;
+      }
+      .boxes {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="title">KWEB Survey Page</div>
+    <div class="_1">
+      <img referrerpolicy="no-referrer" src="https://i.imgur.com/hSSFVSw.png" height="80" width="300"/>
+    </div>
+    <div>
+      <a href="https://kwebofficial.com">KWEB Homepage</a>
+    </div>
+    <div>
+      
+        
+          <h4>1. Write your name.</h4>
+          <input></input>
+        
+        
+            <h4>2. Write your student number.</h4>
+            <input></input>
+          
+        
+            <h4>3. Select your member level.</h4>
+            <span>
+            <input type="radio">Admin</input>
+            <input type="radio">Intern</input>
+            <input type="radio">Qualified</input>
+            </span>  
+        
+        
+            <h4>4. Select all fields you are interested in.</h4>
+            <span>
+            <input type="checkbox">Front-end</input>
+            <input type="checkbox">Back-end</input>
+            <input type="checkbox">Web crawling</input>
+            <input type="checkbox">Web security</input>
+            <input type="checkbox">Etcetera</input>
+            <input></input>
+            </span>  
+        
+        
+            <div>
+                <h4>5. Give us your overall evaluation and feedback about the previous study.</h4>
+                <textarea rows="15" cols="80"></textarea>
+                <br>
+                <button>Submit your answers</button>
+            </div>
+        
+      </ol>
+    </div>
+
+    <br><br><br><br><br>
+    <div>
+      <h3 class="description">Input username:</h3>
+      <input class="boxes" type="text" name="username" />
+    </div>
+    <div>
+      <h3 class="description">Input password:</h3>
+      <input class="boxes" type="password" name="password" />
+    </div>
+    <div>
+      <h3 class="description">Gender:</h3>
+      <span>
+        <label><input type="radio" name="gender" value="male" />Male</label>
+        <label><input type="radio" name="gender" value="female" />Female</label>
+        <label><input type="radio" name="gender" value="other" />Other</label>
+      </span>
+    </div>
+    <div>
+      <h3 class="description">Your Major:</h3>
+      <select name="major">
+        <option value="cs">Computer Science</option>
+        <option value="phy">Physics</option>
+        <option value="chm">Chemistry</option>
+        <option value="math">Mathematics</option>
+      </select>
+    </div>
+    <div>
+      <h3 class="description">Introduce yourself:</h3>
+      <textarea
+        cols="40"
+        rows="5"
+        placeholder="Introduce yourself"
+        name="introduction"
+      ></textarea>
+    </div>
+  </body>
+</html>
