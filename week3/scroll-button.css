@@ -1,0 +1,21 @@
+.button-total{
+    background-color:rgb(28, 28, 187);
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    
+    border-radius: 30px;
+
+    font-size: 10pt;
+    padding:8px 5px;
+}
+.button-top{
+    color:white;
+    padding:5px;
+}
+.button-bottom{
+    color:white;
+    padding:5px;
+    padding-top:2px;
+    border-top:1px solid white;
+}
